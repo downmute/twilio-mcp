@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { logger } from '@twilio-alpha/openapi-mcp-server';
+import { logger } from '@twilio-alpha/openapi-mcp-server.ts';
 
 import main from '@app/main';
 
