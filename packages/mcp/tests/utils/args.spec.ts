@@ -1,7 +1,7 @@
-import { afterEach, beforeEach, describe, expect, it, Mock, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, Mock, vi } from 'vitest.ts';
 
-import parsedArgs from '@app/utils/args';
-import { isValidTwilioSid } from '@app/utils/general';
+import parsedArgs from '@app/utils/args.ts';
+import { isValidTwilioSid } from '@app/utils/general.ts';
 
 vi.mock('@app/utils/general', () => ({
   isValidTwilioSid: vi.fn(),
