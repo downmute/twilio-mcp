@@ -1,7 +1,7 @@
-import { logger } from '@twilio-alpha/openapi-mcp-server';
+import { logger } from '@twilio-alpha/openapi-mcp-server.ts';
 import minimist from 'minimist';
 
-import { isValidTwilioSid } from './general';
+import { isValidTwilioSid } from './general.ts';
 
 interface ParsedArgs {
   services: string[];
