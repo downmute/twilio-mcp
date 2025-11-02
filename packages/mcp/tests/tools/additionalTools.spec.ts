@@ -1,7 +1,7 @@
-import { describe, expect, it, beforeEach, afterEach, vi } from 'vitest';
-import loadAdditionalTools from '../../src/tools/additionalTools';
-import { uploadFunctionDefinition } from '../../src/tools/uploadFunction';
-import { uploadAssetDefinition } from '../../src/tools/uploadAsset';
+import { describe, expect, it, beforeEach, afterEach, vi } from 'vitest.ts';
+import loadAdditionalTools from '../../src/tools/additionalTools.ts';
+import { uploadFunctionDefinition } from '../../src/tools/uploadFunction.ts';
+import { uploadAssetDefinition } from '../../src/tools/uploadAsset.ts';
 
 describe('additionalTools', () => {
   beforeEach(() => {
