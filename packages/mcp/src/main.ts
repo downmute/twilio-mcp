@@ -1,8 +1,8 @@
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { logger } from '@twilio-alpha/openapi-mcp-server';
+import { logger } from '@twilio-alpha/openapi-mcp-server.ts';
 
-import TwilioOpenAPIMCPServer from '@app/server';
-import { args, type AccountCredentials } from '@app/utils';
+import TwilioOpenAPIMCPServer from '@app/server.ts';
+import { args, type AccountCredentials } from '@app/utils.ts';
 
 export default async function main() {
   let credentials: AccountCredentials | null;
