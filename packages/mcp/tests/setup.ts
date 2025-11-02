@@ -4,8 +4,8 @@ beforeEach(() => {
   vi.resetAllMocks();
 });
 
-vi.mock('@app/utils', async () => {
-  const actual = await vi.importActual('@app/utils');
+vi.mock('@app/utils.ts', async () => {
+  const actual = await vi.importActual('@app/utils.ts');
   return {
     ...actual,
     logger: {
