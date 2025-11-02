@@ -1,12 +1,12 @@
-import FormData from 'form-data';
-import { describe, expect, it, beforeEach, vi, Mock } from 'vitest';
-import { Http } from '@twilio-alpha/openapi-mcp-server/build/utils';
+import FormData from 'form-data.ts';
+import { describe, expect, it, beforeEach, vi, Mock } from 'vitest.ts';
+import { Http } from '@twilio-alpha/openapi-mcp-server/build/utils.ts';
 import {
   uploadFunctionExecution,
   uploadFunctionDefinition,
   uploadFunctionAPI,
   name,
-} from '../../src/tools/uploadFunction';
+} from '../../src/tools/uploadFunction.ts';
 
 // Mock FormData
 vi.mock('form-data', () => {
