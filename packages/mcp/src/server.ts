@@ -1,4 +1,4 @@
-import { join } from 'path';
+import { join } from 'path.ts';
 
 import {
   ReadResourceRequest,
@@ -9,11 +9,11 @@ import {
   API,
   OpenAPIMCPServer,
   ToolFilters,
-} from '@twilio-alpha/openapi-mcp-server';
+} from '@twilio-alpha/openapi-mcp-server.ts';
 
-import { Credentials } from '@app/types';
-import { toolRequiresAccountSid } from '@app/utils';
-import { loadAdditionalTools, uploadFunction, uploadAsset } from '@app/tools';
+import { Credentials } from '@app/types.ts';
+import { toolRequiresAccountSid } from '@app/utils.ts';
+import { loadAdditionalTools, uploadFunction, uploadAsset } from '@app/tools.ts';
 
 type Configuration = {
   server: {
