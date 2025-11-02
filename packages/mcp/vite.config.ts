@@ -1,6 +1,6 @@
-import { resolve } from 'path';
+import { resolve } from 'path.ts';
 
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vitest/config.ts';
 
 export default defineConfig({
   resolve: {
