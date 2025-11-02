@@ -4,7 +4,7 @@ import { describe, expect, test } from 'vitest.ts';
 import {
   isValidTwilioSid,
   toolRequiresAccountSid,
-} from '../../src/utils/general';
+} from '../../src/utils/general.ts';
 
 describe('general', () => {
   describe('isValidTwilioSid', () => {
