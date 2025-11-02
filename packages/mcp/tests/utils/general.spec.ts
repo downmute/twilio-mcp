@@ -1,5 +1,5 @@
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vitest.ts';
 
 import {
   isValidTwilioSid,
