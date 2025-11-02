@@ -1,7 +1,7 @@
-import { Tool } from '@modelcontextprotocol/sdk/types';
-import { API, ToolFilters } from '@twilio-alpha/openapi-mcp-server';
-import { uploadFunctionDefinition, uploadFunctionAPI } from './uploadFunction';
-import { uploadAssetDefinition, uploadAssetAPI } from './uploadAsset';
+import { Tool } from '@modelcontextprotocol/sdk/types.ts';
+import { API, ToolFilters } from '@twilio-alpha/openapi-mcp-server.ts';
+import { uploadFunctionDefinition, uploadFunctionAPI } from './uploadFunction.ts';
+import { uploadAssetDefinition, uploadAssetAPI } from './uploadAsset.ts';
 
 type Additional = {
   tool: Tool;
