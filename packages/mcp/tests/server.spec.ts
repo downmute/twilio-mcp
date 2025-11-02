@@ -1,12 +1,12 @@
 // @ts-nocheck
 /* eslint-disable max-classes-per-file, class-methods-use-this */
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
-import { API } from '@twilio-alpha/openapi-mcp-server';
-import { beforeEach, describe, expect, it, Mock, vi } from 'vitest';
+import { API } from '@twilio-alpha/openapi-mcp-server.ts';
+import { beforeEach, describe, expect, it, Mock, vi } from 'vitest.ts';
 
-import { toolRequiresAccountSid } from '@app/utils';
+import { toolRequiresAccountSid } from '@app/utils.ts';
 
-import TwilioOpenAPIMCPServer from '../src/server';
+import TwilioOpenAPIMCPServer from '../src/server.ts';
 
 // Mock dependencies
 vi.mock('path', () => ({
